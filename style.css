@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-text-color{
+    background-color: black;
+    color: white;
+}
+
+header{
+    width: 1404px;
+    margin: auto;
+    text-align: center;
+    padding: 3rem 1rem 2.5rem .5rem;
+    box-sizing: border-box;
+}
+
+header h1{
+    font-size: 2.5rem;
+    
+}
+
+.heading{
+    margin-bottom: 1rem;
+}
+
+header p{
+    margin-bottom: 1rem;
+}
+
+header p .coloured-text{
+    padding: .2rem .2rem .2rem .2rem;
+}
+
+.blog-content{
+    width: 1404px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 66.2%;
+    
+}
+
+.card-container{
+padding: 1rem 1rem 0 1rem;
+}
+
+.card{
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img{
+    width: 100%;
+}
+
+.title{
+    padding: .5rem 1rem 1rem 1rem;
+}
+
+.title h2{
+    margin-bottom: 1rem;
+}
+
+.title p::before{
+    content: "Title description, ";
+    color: black;
+}
+
+.title p{
+    font-size: 1.1rem;
+    color: #9B9B9B;
+}
+
+.discrption{
+    padding: 1rem .4rem .5rem 1rem;
+    
+}
+
+.discrption p{
+    
+    font-size: 15px;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+    
+}
+
+.read-comments{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem .4rem 0rem .5rem;
+    justify-content: space-between;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.read-more{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-left: -7px;
+    border: 2px solid #9B9B9B;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.comments p{
+    font-weight: 600;
+}
+
+.count{
+    margin-left: 10px;
+    padding: .1rem .5rem .1rem .5rem;
+}
+
+
+
+.right{
+    width: 33.8%;
+    
+}
+
+.intro-container{
+    padding: 1rem;
+
+}
+
+.intro{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro img{
+    width: 100%;
+}
+
+.title-discription{
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    
+}
+
+.title-discription h2{
+    margin-bottom: 1rem;
+}
+
+.discription{
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.popular-post-container{
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+ 
+.popular-post{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pp-heading{
+    font-size: 1.5rem ;
+    font-weight: 400;
+    padding: 1.3rem 1rem 1.3rem 1rem ;
+    background-color: #F1F1F1;
+}
+
+
+
+.pp-card{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 2px solid #F1F1F1;
+}
+
+.pp-disc p{
+    margin: .2rem;
+}
+
+.pp-card img{
+    width: 50px;
+    height: 50px;
+    margin-right: .5rem;
+}
+
+
+.tags-container{
+    padding: 1rem;
+}
+
+.tag-heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.3rem 1rem 1.3rem 1rem ;
+    background-color: #F1F1F1;
+}
+
+.tags{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tag-links{
+    padding: 1rem;
+}
+
+.tag-links a{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #F1F1F1;
+    margin: .5rem .2rem;
+}
+
+footer{
+    width: 100%;
+    background-color: #616161;
+    padding: 2rem 1rem 1rem 1rem;
+    height: 187px;
+}
+
+footer button{
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    border: 0px;
+    margin-bottom: 1.7rem;
+    color: white;
+
+}
+.button1{
+    background-color: #444444;
+    color: #727272;
+    border: 0px;
+}
+
+.content-footer p , .content-footer a{
+    color: white;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ media querry ++++++++++++++++++++++++++++++++++++++ */
+
+
+@media (max-width:1400px){
+    header{
+        width: 100%;
+    }
+
+    .blog-content{
+        width: 100%;
+    }
+}
+
+@media (max-width :993px){
+    .blog-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+}
