@@ -118,6 +118,10 @@ padding: 1rem 1rem 0 1rem;
     font-weight: 500;
 }
 
+.read-more:hover{
+    background-color: #ccc;
+}
+
 .comments p{
     font-weight: 600;
 }
@@ -195,6 +199,9 @@ padding: 1rem 1rem 0 1rem;
     margin-right: .5rem;
 }
 
+.pp-card:hover{
+    background-color: #ccc;
+}
 
 .tags-container{
     padding: 1rem;
@@ -251,6 +258,14 @@ footer button{
     color: white;
 }
 
+.next:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.button1:hover{
+    background-color: #ccc;
+}
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++ media querry ++++++++++++++++++++++++++++++++++++++ */
 
